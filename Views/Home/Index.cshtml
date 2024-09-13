@@ -1,0 +1,34 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<main>
+   
+
+    <div class="row">
+        <section class="col-md-4" aria-labelledby="gettingStartedTitle">
+            <h2 id="gettingStartedTitle">Getting started</h2>
+            <p>
+               Example Azure B2C Framework 4.6
+            </p>
+            
+        </section>
+       
+    </div>
+
+    <!-- Login / Logout buttons -->
+    <div class="row">
+        <section class="col-md-12 text-center" aria-labelledby="loginSection">
+            <h2 id="loginSection">User Authentication</h2>
+            @if (Request.IsAuthenticated)
+            {
+                <p>Bienvenido, @User.Identity.Name</p>
+                <button class="btn btn-danger" onclick="location.href='@Url.Action("SignOut", "Home")'">Cerrar sesión</button>
+            }
+            else
+            {
+                <button class="btn btn-success" onclick="location.href='@Url.Action("SignIn", "Home")'">Iniciar sesión</button>
+            }
+        </section>
+    </div>
+</main>
