@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\repositories\\azureB2Cframework46\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{26736877-188B-47FC-806E-FDEC47E85897}|WebApplicationABC.csproj|D:\\repositories\\azureB2Cframework46\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26736877-188B-47FC-806E-FDEC47E85897}|WebApplicationABC.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{26736877-188B-47FC-806E-FDEC47E85897}|WebApplicationABC.csproj|D:\\repositories\\azureB2Cframework46\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{26736877-188B-47FC-806E-FDEC47E85897}|WebApplicationABC.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26736877-188B-47FC-806E-FDEC47E85897}|WebApplicationABC.csproj|d:\\repositories\\azureb2cframework46\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{26736877-188B-47FC-806E-FDEC47E85897}|WebApplicationABC.csproj|solutionrelative:views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26736877-188B-47FC-806E-FDEC47E85897}|WebApplicationABC.csproj|D:\\repositories\\azureB2Cframework46\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26736877-188B-47FC-806E-FDEC47E85897}|WebApplicationABC.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26736877-188B-47FC-806E-FDEC47E85897}|WebApplicationABC.csproj|D:\\repositories\\azureB2Cframework46\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -54,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,7 +62,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Web.config",
               "DocumentMoniker": "D:\\repositories\\azureB2Cframework46\\Views\\Web.config",
               "RelativeDocumentMoniker": "Views\\Web.config",
@@ -114,13 +114,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\repositories\\azureB2Cframework46\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "D:\\repositories\\azureB2Cframework46\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA5wBcAAABIAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA5wBsAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-04T19:35:05.615Z",
               "EditorCaption": ""
@@ -165,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Web.config",
               "DocumentMoniker": "D:\\repositories\\azureB2Cframework46\\Web.config",
               "RelativeDocumentMoniker": "Web.config",

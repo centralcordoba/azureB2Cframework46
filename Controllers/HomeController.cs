@@ -3,6 +3,7 @@ using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.OpenIdConnect;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -17,15 +18,16 @@ namespace WebApplicationABC.Controllers
         }
 
         public void SignIn()
-        { 
-            if (!Request.IsAuthenticated)
-            {
-                HttpContext.GetOwinContext().Authentication.Challenge(
-                new Microsoft.Owin.Security.AuthenticationProperties { RedirectUri = "/" },
-                OpenIdConnectAuthenticationDefaults.AuthenticationType);
-                ;
-            }
-        
+        {
+            //if (!Request.IsAuthenticated)
+            //{
+            //    HttpContext.GetOwinContext().Authentication.Challenge(
+            //    new Microsoft.Owin.Security.AuthenticationProperties { RedirectUri = "/" },
+            //    OpenIdConnectAuthenticationDefaults.AuthenticationType);
+            //    ;
+            //}
+           
+            Response.Redirect(ConfigurationManager.AppSettings["ExternalUrl"]);
         }
 
         public void SignOut()
